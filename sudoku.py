@@ -6,6 +6,7 @@ class Sudoku:
     y = 9
     init_board = [[0] * 9 for i in range(9)]
 
+    # Constructor for class
     def __init__(self, board):
         with open(board, "r") as sudoku_board:
             row = 0
